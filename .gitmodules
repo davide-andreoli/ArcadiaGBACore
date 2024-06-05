@@ -1,3 +1,6 @@
 [submodule "LibretroBeetleGBA/beetle-gba-libretro"]
 	path = LibretroBeetleGBA/beetle-gba-libretro
 	url = https://github.com/libretro/beetle-gba-libretro
+[submodule "LibretroVBANext/vba-next"]
+	path = LibretroVBANext/vba-next
+	url = https://github.com/libretro/vba-next
