@@ -243,7 +243,8 @@
 		952C5FA82C10A8B600DF2832 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 952C5F3B2C10A8B600DF2832 /* LICENSE */; };
 		952C5FA92C10A8B600DF2832 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 952C5F3C2C10A8B600DF2832 /* Makefile */; };
 		952C5FAA2C10A8B600DF2832 /* Makefile.libretro in Resources */ = {isa = PBXBuildFile; fileRef = 952C5F3D2C10A8B600DF2832 /* Makefile.libretro */; };
-		952C5FAB2C10ADEE00DF2832 /* LibretroVBANext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5EA32C10A89200DF2832 /* LibretroVBANext.framework */; };
+		959F3BA42C10DB1A009EF53B /* LibretroVBANext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5EA32C10A89200DF2832 /* LibretroVBANext.framework */; };
+		959F3BA52C10DB1A009EF53B /* LibretroVBANext.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5EA32C10A89200DF2832 /* LibretroVBANext.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,6 +278,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				959F3BA52C10DB1A009EF53B /* LibretroVBANext.framework in Embed Frameworks */,
 				952C5E992C10619E00DF2832 /* ArcadiaCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -534,7 +536,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				952C5FAB2C10ADEE00DF2832 /* LibretroVBANext.framework in Frameworks */,
+				959F3BA42C10DB1A009EF53B /* LibretroVBANext.framework in Frameworks */,
 				952C5E982C10619D00DF2832 /* ArcadiaCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
