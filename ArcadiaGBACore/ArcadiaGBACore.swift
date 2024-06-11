@@ -22,6 +22,11 @@ import LibretroVBANext
 
     public var initialSaveRamSnapshot: [UInt8]? = nil
     public var currentSaveRamSnapshot: [UInt32 : [UInt8]]? = [:]
+    public var defaultCoreOptions: [ArcadiaCoreOption ] = [
+        ArcadiaCoreOption(key: "vbanext_rtc", selectedValue: "enabled"),
+        ArcadiaCoreOption(key: "vbanext_rtc", selectedValue: "enabled"),
+        ArcadiaCoreOption(key: "vbanext_rtc", selectedValue: "enabled")
+    ]
     
     public init() {
     }
