@@ -18,40 +18,10 @@
 		952C5EAD2C10A89300DF2832 /* LibretroVBANext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5EA32C10A89200DF2832 /* LibretroVBANext.framework */; };
 		952C5EB22C10A89300DF2832 /* LibretroVBANextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 952C5EB12C10A89300DF2832 /* LibretroVBANextTests.m */; };
 		952C5EB32C10A89300DF2832 /* LibretroVBANext.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C5EA52C10A89200DF2832 /* LibretroVBANext.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		952C5F402C10A8B600DF2832 /* Makefile.android_arm64-v8a in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EBB2C10A8B600DF2832 /* Makefile.android_arm64-v8a */; };
-		952C5F412C10A8B600DF2832 /* Makefile.android_armeabi in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EBC2C10A8B600DF2832 /* Makefile.android_armeabi */; };
-		952C5F422C10A8B600DF2832 /* Makefile.android_armeabi-v7a in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EBD2C10A8B600DF2832 /* Makefile.android_armeabi-v7a */; };
-		952C5F432C10A8B600DF2832 /* Makefile.android_mips in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EBE2C10A8B600DF2832 /* Makefile.android_mips */; };
-		952C5F442C10A8B600DF2832 /* Makefile.android_mips64 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EBF2C10A8B600DF2832 /* Makefile.android_mips64 */; };
-		952C5F452C10A8B600DF2832 /* Makefile.android_x86 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC02C10A8B600DF2832 /* Makefile.android_x86 */; };
-		952C5F462C10A8B600DF2832 /* Makefile.android_x86_64 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC12C10A8B600DF2832 /* Makefile.android_x86_64 */; };
-		952C5F472C10A8B600DF2832 /* Makefile.common in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC22C10A8B600DF2832 /* Makefile.common */; };
-		952C5F482C10A8B600DF2832 /* Makefile.linux_x86 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC32C10A8B600DF2832 /* Makefile.linux_x86 */; };
-		952C5F492C10A8B600DF2832 /* Makefile.linux_x86_64 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC42C10A8B600DF2832 /* Makefile.linux_x86_64 */; };
-		952C5F4A2C10A8B600DF2832 /* Makefile.linux-portable_x86 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC52C10A8B600DF2832 /* Makefile.linux-portable_x86 */; };
-		952C5F4B2C10A8B600DF2832 /* Makefile.linux-portable_x86_64 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC62C10A8B600DF2832 /* Makefile.linux-portable_x86_64 */; };
-		952C5F4C2C10A8B600DF2832 /* Makefile.mingw_x86 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC72C10A8B600DF2832 /* Makefile.mingw_x86 */; };
-		952C5F4D2C10A8B600DF2832 /* Makefile.mingw_x86_64 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC82C10A8B600DF2832 /* Makefile.mingw_x86_64 */; };
-		952C5F4E2C10A8B600DF2832 /* Makefile.osx_x86 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EC92C10A8B600DF2832 /* Makefile.osx_x86 */; };
-		952C5F4F2C10A8B600DF2832 /* Makefile.osx_x86_64 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ECA2C10A8B600DF2832 /* Makefile.osx_x86_64 */; };
-		952C5F502C10A8B600DF2832 /* Makefile.rules in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ECB2C10A8B600DF2832 /* Makefile.rules */; };
-		952C5F512C10A8B600DF2832 /* Makefile.vita_arm in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ECC2C10A8B600DF2832 /* Makefile.vita_arm */; };
-		952C5F522C10A8B600DF2832 /* Makefile.wii_ppc in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ECD2C10A8B600DF2832 /* Makefile.wii_ppc */; };
-		952C5F532C10A8B600DF2832 /* Makefile.windows_msvc2005_x86 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ECE2C10A8B600DF2832 /* Makefile.windows_msvc2005_x86 */; };
-		952C5F542C10A8B600DF2832 /* Makefile.windows_msvc2010_x64 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ECF2C10A8B600DF2832 /* Makefile.windows_msvc2010_x64 */; };
-		952C5F552C10A8B600DF2832 /* Makefile.windows_msvc2010_x86 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ED02C10A8B600DF2832 /* Makefile.windows_msvc2010_x86 */; };
-		952C5F562C10A8B600DF2832 /* Makefile.windows_msvc2017_desktop_arm in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ED12C10A8B600DF2832 /* Makefile.windows_msvc2017_desktop_arm */; };
-		952C5F572C10A8B600DF2832 /* Makefile.windows_msvc2017_desktop_x64 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ED22C10A8B600DF2832 /* Makefile.windows_msvc2017_desktop_x64 */; };
-		952C5F582C10A8B600DF2832 /* Makefile.windows_msvc2017_desktop_x86 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ED32C10A8B600DF2832 /* Makefile.windows_msvc2017_desktop_x86 */; };
-		952C5F592C10A8B600DF2832 /* Makefile.windows_x86 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ED42C10A8B600DF2832 /* Makefile.windows_x86 */; };
-		952C5F5A2C10A8B600DF2832 /* Makefile.windows_x86_64 in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ED52C10A8B600DF2832 /* Makefile.windows_x86_64 */; };
 		952C5F5B2C10A8B600DF2832 /* gbaconv.c in Sources */ = {isa = PBXBuildFile; fileRef = 952C5ED72C10A8B600DF2832 /* gbaconv.c */; };
-		952C5F5C2C10A8B600DF2832 /* Android.mk in Resources */ = {isa = PBXBuildFile; fileRef = 952C5ED92C10A8B600DF2832 /* Android.mk */; };
-		952C5F5D2C10A8B600DF2832 /* Application.mk in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EDA2C10A8B600DF2832 /* Application.mk */; };
 		952C5F5E2C10A8B600DF2832 /* libretro_core_options_intl.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C5EDC2C10A8B600DF2832 /* libretro_core_options_intl.h */; };
 		952C5F5F2C10A8B600DF2832 /* libretro_core_options.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C5EDD2C10A8B600DF2832 /* libretro_core_options.h */; };
 		952C5F602C10A8B600DF2832 /* libretro.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 952C5EDE2C10A8B600DF2832 /* libretro.cpp */; };
-		952C5F612C10A8B600DF2832 /* link.T in Resources */ = {isa = PBXBuildFile; fileRef = 952C5EDF2C10A8B600DF2832 /* link.T */; };
 		952C5F622C10A8B600DF2832 /* compat_posix_string.c in Sources */ = {isa = PBXBuildFile; fileRef = 952C5EE12C10A8B600DF2832 /* compat_posix_string.c */; };
 		952C5F632C10A8B600DF2832 /* compat_snprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = 952C5EE22C10A8B600DF2832 /* compat_snprintf.c */; };
 		952C5F642C10A8B600DF2832 /* compat_strcasestr.c in Sources */ = {isa = PBXBuildFile; fileRef = 952C5EE32C10A8B600DF2832 /* compat_strcasestr.c */; };
@@ -116,12 +86,6 @@
 		952C5FA22C10A8B600DF2832 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 952C5F342C10A8B600DF2832 /* thread.c */; };
 		952C5FA32C10A8B600DF2832 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C5F352C10A8B600DF2832 /* thread.h */; };
 		952C5FA42C10A8B600DF2832 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C5F362C10A8B600DF2832 /* types.h */; };
-		952C5FA52C10A8B600DF2832 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 952C5F382C10A8B600DF2832 /* .gitignore */; };
-		952C5FA62C10A8B600DF2832 /* .gitlab-ci.yml in Resources */ = {isa = PBXBuildFile; fileRef = 952C5F392C10A8B600DF2832 /* .gitlab-ci.yml */; };
-		952C5FA72C10A8B600DF2832 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 952C5F3A2C10A8B600DF2832 /* .travis.yml */; };
-		952C5FA82C10A8B600DF2832 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 952C5F3B2C10A8B600DF2832 /* LICENSE */; };
-		952C5FA92C10A8B600DF2832 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 952C5F3C2C10A8B600DF2832 /* Makefile */; };
-		952C5FAA2C10A8B600DF2832 /* Makefile.libretro in Resources */ = {isa = PBXBuildFile; fileRef = 952C5F3D2C10A8B600DF2832 /* Makefile.libretro */; };
 		959F3BA42C10DB1A009EF53B /* LibretroVBANext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5EA32C10A89200DF2832 /* LibretroVBANext.framework */; };
 		959F3BA52C10DB1A009EF53B /* LibretroVBANext.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5EA32C10A89200DF2832 /* LibretroVBANext.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -895,41 +859,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				952C5FA52C10A8B600DF2832 /* .gitignore in Resources */,
-				952C5F452C10A8B600DF2832 /* Makefile.android_x86 in Resources */,
-				952C5F572C10A8B600DF2832 /* Makefile.windows_msvc2017_desktop_x64 in Resources */,
-				952C5F582C10A8B600DF2832 /* Makefile.windows_msvc2017_desktop_x86 in Resources */,
-				952C5F422C10A8B600DF2832 /* Makefile.android_armeabi-v7a in Resources */,
-				952C5F462C10A8B600DF2832 /* Makefile.android_x86_64 in Resources */,
-				952C5F432C10A8B600DF2832 /* Makefile.android_mips in Resources */,
-				952C5F472C10A8B600DF2832 /* Makefile.common in Resources */,
-				952C5F442C10A8B600DF2832 /* Makefile.android_mips64 in Resources */,
-				952C5F5A2C10A8B600DF2832 /* Makefile.windows_x86_64 in Resources */,
-				952C5F612C10A8B600DF2832 /* link.T in Resources */,
-				952C5F552C10A8B600DF2832 /* Makefile.windows_msvc2010_x86 in Resources */,
-				952C5F542C10A8B600DF2832 /* Makefile.windows_msvc2010_x64 in Resources */,
-				952C5F492C10A8B600DF2832 /* Makefile.linux_x86_64 in Resources */,
-				952C5F522C10A8B600DF2832 /* Makefile.wii_ppc in Resources */,
-				952C5F532C10A8B600DF2832 /* Makefile.windows_msvc2005_x86 in Resources */,
-				952C5FAA2C10A8B600DF2832 /* Makefile.libretro in Resources */,
-				952C5F412C10A8B600DF2832 /* Makefile.android_armeabi in Resources */,
-				952C5F592C10A8B600DF2832 /* Makefile.windows_x86 in Resources */,
-				952C5F4B2C10A8B600DF2832 /* Makefile.linux-portable_x86_64 in Resources */,
-				952C5F482C10A8B600DF2832 /* Makefile.linux_x86 in Resources */,
-				952C5FA72C10A8B600DF2832 /* .travis.yml in Resources */,
-				952C5F562C10A8B600DF2832 /* Makefile.windows_msvc2017_desktop_arm in Resources */,
-				952C5FA62C10A8B600DF2832 /* .gitlab-ci.yml in Resources */,
-				952C5F402C10A8B600DF2832 /* Makefile.android_arm64-v8a in Resources */,
-				952C5FA82C10A8B600DF2832 /* LICENSE in Resources */,
-				952C5F502C10A8B600DF2832 /* Makefile.rules in Resources */,
-				952C5F4F2C10A8B600DF2832 /* Makefile.osx_x86_64 in Resources */,
-				952C5F4E2C10A8B600DF2832 /* Makefile.osx_x86 in Resources */,
-				952C5F512C10A8B600DF2832 /* Makefile.vita_arm in Resources */,
-				952C5F4A2C10A8B600DF2832 /* Makefile.linux-portable_x86 in Resources */,
-				952C5F4D2C10A8B600DF2832 /* Makefile.mingw_x86_64 in Resources */,
-				952C5F5C2C10A8B600DF2832 /* Android.mk in Resources */,
-				952C5F5D2C10A8B600DF2832 /* Application.mk in Resources */,
-				952C5F4C2C10A8B600DF2832 /* Makefile.mingw_x86 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -980,7 +909,6 @@
 				952C5F8F2C10A8B600DF2832 /* file_stream.c in Sources */,
 				952C5F982C10A8B600DF2832 /* memory.cpp in Sources */,
 				952C5FA02C10A8B600DF2832 /* system.cpp in Sources */,
-				952C5FA92C10A8B600DF2832 /* Makefile in Sources */,
 				952C5F682C10A8B600DF2832 /* file_path_io.c in Sources */,
 				952C5FA22C10A8B600DF2832 /* thread.c in Sources */,
 				952C5EA72C10A89200DF2832 /* LibretroVBANext.docc in Sources */,
