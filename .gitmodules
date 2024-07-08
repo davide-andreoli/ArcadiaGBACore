@@ -4,3 +4,6 @@
 [submodule "LibretroVBANext/vba-next"]
 	path = LibretroVBANext/vba-next
 	url = https://github.com/libretro/vba-next
+[submodule "ArcadiaGBACore/vba-next"]
+	path = ArcadiaGBACore/vba-next
+	url = https://github.com/libretro/vba-next.git

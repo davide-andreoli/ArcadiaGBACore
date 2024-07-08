@@ -8,7 +8,6 @@
 
 import Foundation
 import ArcadiaCore
-import LibretroVBANext
 
 @Observable public class ArcadiaGBA: ArcadiaCoreProtocol {
     
