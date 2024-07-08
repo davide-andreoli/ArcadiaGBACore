@@ -12,8 +12,6 @@
 		952C3C002C1041A000DF2832 /* ArcadiaGBACoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C3BFF2C1041A000DF2832 /* ArcadiaGBACoreTests.swift */; };
 		952C3C012C1041A000DF2832 /* ArcadiaGBACore.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C3BF32C10419F00DF2832 /* ArcadiaGBACore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		952C5E942C1060C600DF2832 /* ArcadiaGBACore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952C5E932C1060C600DF2832 /* ArcadiaGBACore.swift */; };
-		952C5E982C10619D00DF2832 /* ArcadiaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5E972C10619D00DF2832 /* ArcadiaCore.framework */; };
-		952C5E992C10619E00DF2832 /* ArcadiaCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5E972C10619D00DF2832 /* ArcadiaCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		952C5EA72C10A89200DF2832 /* LibretroVBANext.docc in Sources */ = {isa = PBXBuildFile; fileRef = 952C5EA62C10A89200DF2832 /* LibretroVBANext.docc */; };
 		952C5EAD2C10A89300DF2832 /* LibretroVBANext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5EA32C10A89200DF2832 /* LibretroVBANext.framework */; };
 		952C5EB22C10A89300DF2832 /* LibretroVBANextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 952C5EB12C10A89300DF2832 /* LibretroVBANextTests.m */; };
@@ -88,6 +86,8 @@
 		952C5FA42C10A8B600DF2832 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = 952C5F362C10A8B600DF2832 /* types.h */; };
 		959F3BA42C10DB1A009EF53B /* LibretroVBANext.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5EA32C10A89200DF2832 /* LibretroVBANext.framework */; };
 		959F3BA52C10DB1A009EF53B /* LibretroVBANext.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5EA32C10A89200DF2832 /* LibretroVBANext.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		95CC71F32C3AED76009FB8DD /* ArcadiaGBACore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC71F22C3AED76009FB8DD /* ArcadiaGBACore.swift */; };
+		95CC71F92C3AEEB0009FB8DD /* ArcadiaCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 952C5E972C10619D00DF2832 /* ArcadiaCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -115,7 +115,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				959F3BA52C10DB1A009EF53B /* LibretroVBANext.framework in Embed Frameworks */,
-				952C5E992C10619E00DF2832 /* ArcadiaCore.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,6 +242,7 @@
 		952C5F3B2C10A8B600DF2832 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		952C5F3C2C10A8B600DF2832 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		952C5F3D2C10A8B600DF2832 /* Makefile.libretro */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.libretro; sourceTree = "<group>"; };
+		95CC71F22C3AED76009FB8DD /* ArcadiaGBACore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcadiaGBACore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				959F3BA42C10DB1A009EF53B /* LibretroVBANext.framework in Frameworks */,
-				952C5E982C10619D00DF2832 /* ArcadiaCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +266,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CC71F92C3AEEB0009FB8DD /* ArcadiaCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +336,7 @@
 				952C5F3E2C10A8B600DF2832 /* vba-next */,
 				952C5EA52C10A89200DF2832 /* LibretroVBANext.h */,
 				952C5EA62C10A89200DF2832 /* LibretroVBANext.docc */,
+				95CC71F22C3AED76009FB8DD /* ArcadiaGBACore.swift */,
 			);
 			path = LibretroVBANext;
 			sourceTree = "<group>";
@@ -813,6 +814,7 @@
 					};
 					952C5EA22C10A89200DF2832 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					952C5EAB2C10A89300DF2832 = {
 						CreatedOnToolsVersion = 15.4;
@@ -896,6 +898,7 @@
 				952C5F652C10A8B600DF2832 /* compat_strl.c in Sources */,
 				952C5F632C10A8B600DF2832 /* compat_snprintf.c in Sources */,
 				952C5F602C10A8B600DF2832 /* libretro.cpp in Sources */,
+				95CC71F32C3AED76009FB8DD /* ArcadiaGBACore.swift in Sources */,
 				952C5F922C10A8B600DF2832 /* vfs_implementation.c in Sources */,
 				952C5F912C10A8B600DF2832 /* rtime.c in Sources */,
 				952C5F932C10A8B600DF2832 /* memalign.c in Sources */,
@@ -1195,6 +1198,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1208,7 +1212,7 @@
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/LibretroVBANext/vba-next/libretro-common/include";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -1237,6 +1241,8 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1246,6 +1252,7 @@
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1259,7 +1266,7 @@
 				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/LibretroVBANext/vba-next/libretro-common/include";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
@@ -1288,6 +1295,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -1296,6 +1304,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 32DR4Q2NF7;
@@ -1316,6 +1325,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 32DR4Q2NF7;
