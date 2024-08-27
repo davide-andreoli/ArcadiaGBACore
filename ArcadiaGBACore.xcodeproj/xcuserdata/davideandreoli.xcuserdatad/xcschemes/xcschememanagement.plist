@@ -7,7 +7,7 @@
 		<key>ArcadiaGBACore.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>7</integer>
 		</dict>
 		<key>LibretroBeetleGBA.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,7 +17,7 @@
 		<key>LibretroVBANext.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>16</integer>
 		</dict>
 	</dict>
 </dict>
